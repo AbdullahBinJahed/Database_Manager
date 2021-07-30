@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Database Manager</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+
+<body>
+  <div style="margin: 10px;"></div>
+  <div class="container">
+    <form action="">
+      <fieldset>
+        <label>LN Name : </label>
+        <input id="ln-name" type="text"></input>
+        
+        <label>Index : </label>
+        <input id="index" type="text"></input>
+        
+        <label>Drive Link : </label>
+        <input id="drive-link" type="text"></input>
+        
+      </fieldset>
+    </form>
+    
+    <div id="btns">
+      <button id="insert">INSERT</button>
+      <button id="select">SELECT</button>
+      <button id="update">UPDATE</button>
+      <button id="delete">DELETE</button>
+    </div>
+    
+  </div>
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
+  <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

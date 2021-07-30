@@ -1,0 +1,44 @@
+.container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+fieldset
+{
+  background-color: #AAAAFF;
+}
+
+label
+{
+  clear: left;
+  float: left;
+  width: 5em;
+  text-align: right;
+  margin-right: .5em;
+  margin: 5px;
+}
+
+input
+{
+  background-color: #CCCCFF;
+  float: left;
+  margin: 5px;
+}
+
+#btns
+{
+  margin-top: 10px;
+}
+
+#btns button
+{
+  margin: 2px 9px;
+}
+
+#btns button:active
+{
+  color: red;
+  background-color: black;
+}
