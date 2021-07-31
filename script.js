@@ -87,7 +87,8 @@ try
 {
   document.getElementById('delete').onclick = function()
   {
-    ReadyData();
+    LN_NameV = document.getElementById('ln-name').value;
+    ref = db.ref('LN/' + LN_NameV);
     ref.remove();
   };
 } catch (e)
